@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anil Sapkota</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Anil Sapkota</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Anil Sapkota</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="(face pic image ko source)" alt="Anil Sapkota profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Anil Sapkota</h1>
+        <!-- <p class="section__text__p2">name ko tag</p>-->
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cvas.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Mechanical Engineering <br />M.Sc. Mechanical Systems Design And Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              For my Bachelor's in Mechanical Engineering at Tribhuvan University, Pulchowk Campus (2012-2017), I conducted a design study focused on creating a runner for a gravitational water vortex power plant with a conical basin.
+
+Following this, during my Master's in Mechanical Systems Design and Engineering at the same university (2018-2022), I delved into numerical modeling for my thesis, specifically focusing on sand particle erosion in reverse-engineered Pelton turbine buckets.
+
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+  
+  <br> </br>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://www.nec.edu.np/"><h3>Nepal Engineering College, Bhaktapur</h3></a>
+                  <p>Lecturer</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://www.nec.edu.np/"><h3>Nepal Engineering College, Bhaktapur</h3></a>
+                  <p>Teaching Assistant</p>
+                </div>
+              </article>
+             
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://ces.tu.edu.np/"><h3>Centre for Energy Studies, Lalitpur</h3></a>
+                  <p>Research Student</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                 <h3>Aastha Engineering Solution Pvt. Ltd., Kathmandu</h3>
+                  <p>Mechanical Engineer</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>E & T Pvt. Ltd., Kathmandu</h3>
+                  <p>Mechanical Intern</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://paailatechnology.com/"><h3>Paaila Technology Pvt. Ltd., Lalitpur</h3></a>
+                  <p>Mechanical Engineer</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1"> My </p>
+      <h1 class="title">Publication</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            
+            <h2 class="experience-sub-title project-title">Journal Publication</h2><br>
+            <a href="https://onlinelibrary.wiley.com/doi/10.1155/2022/9772362">Modelling of Hydroabrasive Erosion in
+              Pelton Turbine Injector. International Journal of Rotating Machinery</a><br><br>
+              <a href="https://onlinelibrary.wiley.com/doi/10.1155/2020/5373784">Effects
+                of Geometrical Parameters in Gravitational Water Vortex Turbines with Conical Basin</a><br><br>
+                <a href="https://www.irjmets.com/uploadedfiles/paper/volume2/issue_7_july_2020/2361/1628083087.pdf">Numerical Study on Sediment Erosion
+                  of Micro Pelton Turbine Buckets</a>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+            </div>
+            <h2 class="experience-sub-title project-title">Conference Publication</h2><br>
+              <a href="http://conference.ioe.edu.np/publications/ioegc9/ioegc-9-041-90073.pdf">Effect
+                  of Spear Needle Eccentricity on the Pelton Turbine Jet</a><br><br>
+
+             <a href="https://www.researchgate.net/publication/358393698_Development_of_a_1_kW_Gravitational_Water_Vortex_Hydropower_Plant_Prototype">Development of a 1
+              kW Gravitational Water Vortex Hydropower Plant Prototype</a><br><br>
+              <a href="https://www.researchgate.net/publication/319288198_Study_on_Effect_of_Adding_Booster_Runner_in_Conical_Basin_Gravitational_Water_Vortex_Power_Plant_A_Numerical_and_Experimental_Approach">Study on Effect of Adding
+                Booster Runner in Conical Basin: Gravitational Water Vortex Power Plant: A Numerical and
+                Experimental Approach</a>
+            </div>
+          </div>
+          
+           
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <p>Copyright &#169; 2023 Anil Sapkota. All Rights Reserved.</p> -->
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
